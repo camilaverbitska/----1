@@ -1,0 +1,193 @@
+h1 {
+font-size: 48px;
+font-weight: bold;
+font-family: 'Arial';
+text-align:center;
+color: #AFEEEE;
+text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+p {
+    margin: 0;
+    font-family: 'Arial';
+    font-weight: normal;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+h5{
+    font-size: 24px;
+    color: #FFFACD;
+     font-family: 'Arial';
+     margin: 0px;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+h6 {
+    font-size: 24px;
+    color: #FAFAD2;
+     font-family: 'Arial';
+     margin: 0px;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+h7 {
+     font-size: 24px;
+    color:#FFEFD5;
+     font-family: 'Arial';
+     margin: 0px;
+     font-weight: bold;
+     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+h3 {  
+ font-family: 'Arial';
+ font-weight: bold;
+ font-size: 28px;
+ color: #E6E6FA;
+ text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+header {
+background-color: #333;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+body {
+    background-image: url(/Users/camilaverbitska/Desktop/сайт/img/большой-красивый-букет-смешанных-цветов-фон-и-обои-концепция-158997624.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+.navbar a:hover {
+  color: #4CAF50;
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+input {
+    color: red;
+    font-size: 28px;
+  
+
+}
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+dd {
+    color:#4CAF50;
+     font-size: 14px
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.photo-item {
+  position: relative;
+  min-width: 200px;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
