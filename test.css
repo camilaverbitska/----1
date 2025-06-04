@@ -114,29 +114,3 @@
   margin-top: 30px;
 }
 
-  @media (max-width: 768px) {
-      .flowers-gallery {
-        grid-template-columns: repeat(2, 1fr);
-      }
-    }
-    
-    @media (max-width: 480px) {
-      .flowers-gallery {
-        grid-template-columns: 1fr;
-      }
-    }
-
-        .container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); /* Три столбца одинаковой ширины */
-      grid-template-rows: 1fr; /* Одна строка, занимает всю высоту */
-    }
-
-        .container {
-      display: inline-block;
-    }
-
-    .container img {
-      display: inline-block;
-      vertical-align: top;
-    }
